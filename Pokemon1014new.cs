@@ -11,6 +11,10 @@ namespace practice
     {
         public static void Main(string[] args)
         {
+
+            //Gitコミット出来ているかのチェック
+
+
             Random rand = new Random();
             //Monster（名前,HP,攻撃力,防御力,スピード,属性）
             List<Monster> monsters = new List<Monster>();
@@ -60,7 +64,9 @@ namespace practice
                     }
                 }
             }
+
             //先行を決める
+
 
             //ここからバトルロジック（マジ）
             while (true)
