@@ -45,7 +45,7 @@ namespace Training_C____
         {
             var count = 1;
             var prev = s[0];
-            for(int i = 0; i < s.Length; i++)
+            for(int i = 1; i < s.Length; i++)
             {
                 if (prev == s[i])
                 {
